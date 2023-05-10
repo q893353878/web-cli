@@ -1,0 +1,7 @@
+/dist/
+/public/
+distnode_modules!.prettierrc.js
+.eslintrc.js
+.prettierrc.js
+/node_modules/
+

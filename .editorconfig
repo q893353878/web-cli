@@ -1,0 +1,22 @@
+root = true
+
+[*]
+# tab格式单文件大小比 space的小，但压缩文件，space的小
+indent_style = space
+indent_size = 4
+
+# we recommend you to keep these unchanged
+# 换行符类型 = lf
+end_of_line = lf
+# 字符集=utf-8
+charset = utf-8
+# 删除行尾空格 = 是
+trim_trailing_whitespace = true
+# 插入最后一行=真
+insert_final_newline = true
+# 以换行符结尾=真
+insert_final_newline = true
+
+[*.md]
+# 删除行尾空格 = 否
+trim_trailing_whitespace = false

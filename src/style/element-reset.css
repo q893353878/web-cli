@@ -1,0 +1,65 @@
+/*布局样式*/
+.el-main {
+    padding: 0;
+}
+
+/*目录menu样式*/
+.el-menu {
+    border: none;
+    text-align: left;
+}
+
+/*滚动条scrollbar样式*/
+.scrollbar-wrapper {
+    overflow-x: hidden !important;
+}
+
+.el-scrollbar__bar.is-vertical {
+    right: 0px;
+}
+
+.el-scrollbar {
+    height: 100%;
+}
+
+.el-scrollbar__thumb {
+    background-color: #0AAFB7;
+}
+
+.el-scrollbar__thumb:hover {
+    background-color: #39B5B7;
+}
+
+::-webkit-scrollbar { /* 滚动条宽 */
+    width: 4px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-thumb { /* 滚动条 拖动条 */
+    background: #0AAFB7;
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-track { /* 滚动条背景槽 */
+    background: transparent;
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-button { /*定义两端按钮的样式*/
+    display: none;
+}
+
+::-webkit-scrollbar-corner { /*定义右下角汇合处的样式*/
+    display: none;
+}
+
+.el-table__body-wrapper::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.el-table__body-wrapper::-webkit-scrollbar-thumb {
+    background-color: #0AAFB7;
+    border-radius: 3px;
+}
+/*滚动条scrollbar样式-------------end*/
